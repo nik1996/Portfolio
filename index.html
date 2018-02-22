@@ -12,9 +12,13 @@
   background-color:black;
 }
 
-     .whole{
+  .whole{
   font-family: 'Droid Serif', serif;
   padding-top:5em;
+}
+
+a:hover{
+  color:#DC7633;
 }
 
 #target1{
@@ -108,9 +112,28 @@
   text-align:center;
 }
 
-.form5{
+.edu{
   font-size:22px;
 }
+
+.cp{
+  color:white;
+}
+
+.mid{
+  margin:2em;
+}
+
+.res{
+  color:#333;
+}
+
+.form5{
+  font-size:22px;
+  margin-left:25%;
+  margin-right:25%;
+}
+		
 i{
   color:black;
 }
@@ -198,11 +221,16 @@ h3{
   <div class="row img-responsive" id="target2">
     <h1 class="text-center form4">PROFILE</h1>
     <hr>
-    <div class="col-xs-7">
+    <div class="row text-center">
+    <div class="col-xs-12 col-md-12">
       <h2>
         EDUCATION
       </h2>
-      <p class="form5">B.Tech in Electrical and Electronics Engineering from Delhi Technological University(2015-2019)</p>
+      <p class="edu">B.Tech in Electrical and Electronics Engineering from Delhi Technological University(2015-2019)</p>
+      </div>
+      </div>
+    <div class="row mid">
+      <div class="col-xs-5 col-md-5 text-center">
       <h2>SKILLS
       </h2>
       <ul>
@@ -213,12 +241,20 @@ h3{
         <li class="form5">Javascript</li>
         <li class="form5">jQuery </li>
         <li class="form5">JSON APIs </li>
-	<li class="form5">Python</li>
-	<li class="form5">Machine Learning</li>
       </ul>
     </div>
-    <div class="col-xs-5">
-      
+    <div class="col-xs-5 col-md-5 text-center">
+      <h2>
+        Competitive Programming Profile
+      </h2>
+      <div class="row edu"><a class="cp" href="http://www.spoj.com/users/nik1996/" target="_blank">SPOJ</a></div>
+      <div class="row edu"><a class="cp" href="https://www.codechef.com/users/nik1996" target="_blank">Codechef</a></div>
+      <div class="row edu"><a class="cp" href="https://www.hackerrank.com/nik1996" target="_blank">Hackerrank</a></div>
+      <div class="row edu"><a class="cp" href="https://www.interviewbit.com/profile/nik1996" target="_blank">Interviewbit</a></div>
+    </div>
+    </div>
+    <div class="row text-center">
+      <button class="btn btn-lg btn-default font-weight-bold"><a href="https://drive.google.com/open?id=1L83Ddd6wKO008e76WoBBgKFtdKwUEzO3" target="_blank" class="res">Resume</a></button>
     </div>
    </div>
   <hr>
